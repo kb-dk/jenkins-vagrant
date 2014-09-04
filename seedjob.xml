@@ -34,6 +34,9 @@
     <hudson.triggers.TimerTrigger>
       <spec>H/15 * * * *</spec>
     </hudson.triggers.TimerTrigger>
+    <com.cloudbees.jenkins.GitHubPushTrigger plugin="github@1.9.1">
+      <spec></spec>
+    </com.cloudbees.jenkins.GitHubPushTrigger>
   </triggers>
   <concurrentBuild>false</concurrentBuild>
   <builders>
