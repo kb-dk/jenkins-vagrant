@@ -18,6 +18,9 @@ job(type: Maven) {
     mavenInstallation('maven3')
     goals('clean')
     goals('install')
+    publishers {
+           mailer('', false, true)
+    }
    
 }
 
