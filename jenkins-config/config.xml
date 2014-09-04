@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson>
+  <jdks>
+    <jdk>
+      <name>java7</name>
+      <home>/usr/lib/jvm/java-7-oracle</home>
+      <properties/>
+    </jdk>
+    <jdk>
+      <name>java6</name>
+      <home>/usr/lib/jvm/java-6-oracle</home>
+      <properties/>
+    </jdk>
+
+    <jdk>
+      <name>java8</name>
+      <home>/usr/lib/jvm/java-8-oracle</home>
+      <properties/>
+    </jdk>
+  </jdks>
+</hudson>
