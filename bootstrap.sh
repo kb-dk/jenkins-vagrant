@@ -22,3 +22,8 @@ sudo apt-get install -y maven libxrender-dev libxtst-dev
 
 sudo apt-get install -y jenkins jenkins-cli
 
+sleep 50
+
+/vagrant/jenkins.sh
+
+
