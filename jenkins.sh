@@ -13,4 +13,10 @@ sudo -u jenkins cp /vagrant/jenkins-config/*.xml /var/lib/jenkins/
 
 jenkins-cli -s $JENKINS safe-restart
 
+sleep 30
+
+cat /vagrant/seedjob.xml | jenkins-cli -s $JENKINS create-job seed-job
+
+jenkins-cli -s $JENKINS build -s -v seed-job
+
 
